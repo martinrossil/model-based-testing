@@ -1,0 +1,23 @@
+export const BLUE_700 = '#175CD3';
+export const BLUE_200 = '#B2DDFF';
+export const PINK_700 = '#C11574';
+export const PINK_200 = '#FCCEEE';
+export const YELLOW_700 = '#A15C07';
+export const YELLOW_200 = '#FEEE95';
+export const PURPLE_700 = '#5925DC';
+export const PURPLE_200 = '#D9D6FE';
+export const GREEN_700 = '#087443';
+export const GREEN_200 = '#AAF0C4';
+export const TEAL_700 = '#107569';
+export const TEAL_200 = '#99F6E0';
+export const ERROR_700 = '#B42318';
+export const ERROR_200 = '#FECDCA';
+
+export const WHITE = '#FFFFFF';
+export const GRAY_50 = '#F9FAFB';
+export const GRAY_100 = '#F2F4F7';
+export const GRAY_200 = '#EAECF0';
+export const GRAY_300 = '#D0D5DD';
+export const GRAY_500 = '#667085';
+export const GRAY_700 = '#344054';
+export const GRAY_900 = '#101828';

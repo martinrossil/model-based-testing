@@ -1,0 +1,27 @@
+{
+	"parser": "@typescript-eslint/parser",
+	"plugins": [
+		"@typescript-eslint"
+	],
+	"extends": [
+		"xo",
+		"xo-typescript"
+	],
+	"ignorePatterns": ["**/*.js", "node_modules"],
+	"rules": {
+		"no-new": "off",											// So we can declare a new instance without using the return value
+		"dot-notation": "off",
+		"object-shorthand": "off",
+		"capitalized-comments": "off",								// So we can // lowercase
+		"object-curly-spacing": "off",
+    	"@typescript-eslint/dot-notation": "off",					// So we can use thing["property"] notation
+		"@typescript-eslint/consistent-type-definitions": "off",	// So we can use interface
+		"@typescript-eslint/naming-convention": "off",				// So interface names can start with "I", IButton
+		"@typescript-eslint/member-ordering": "off",				// So _variable doeasn't have to be placed before constructor
+		"@typescript-eslint/consistent-type-imports": "off",		// So we can avoid using import type Interface, Type from './types.ts';
+		"@typescript-eslint/ban-types": "off",						// So we can use null types
+    	"@typescript-eslint/object-curly-spacing": "off",			// So can have spaces like this { something } not {something}
+		"@typescript-eslint/consistent-type-assertions": "off",		// So we can do something: {} as {}
+		"@typescript-eslint/no-extraneous-class": "off"				// So we can have classes with a constructor only
+	}
+}
